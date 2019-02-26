@@ -26,3 +26,9 @@ This image contains the following OpenSource software packages and is subject to
 - [LibreOffice](https://www.libreoffice.org/about-us/licenses/) - Mozilla Public License v2.0
 - [NodeJS](https://raw.githubusercontent.com/nodejs/node/master/LICENSE)
 
+## Notes
+
+Ubuntu 18.04LTS natively includes LibreOffice 6.0.x.
+However, this version includes [a bug](https://bugs.documentfoundation.org/show_bug.cgi?id=118373) not fixed until 6.1.5.
+This image therefore uses the official LibreOffice PPA installation.
+
