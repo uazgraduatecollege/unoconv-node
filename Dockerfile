@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 # We want libreoffice 6.1.5+, so we need to use the PPA
-RUN apt-get update && apt-get install -y curl software-properties-common sudo
+RUN apt-get update && apt-get install -y curl git software-properties-common sudo
 RUN apt-add-repository -y ppa:libreoffice/ppa
 RUN apt-get update && apt-get install -y unoconv
 
