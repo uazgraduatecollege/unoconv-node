@@ -1,6 +1,6 @@
 # unoconv-node
 
-A base environment for GradApp/doc2pdf
+A base environment for uazgradcoll/docproxy-js
 
 ## Build
 
@@ -31,4 +31,3 @@ This image contains the following OpenSource software packages and is subject to
 Ubuntu 18.04LTS natively includes LibreOffice 6.0.x.
 However, this version includes [a bug](https://bugs.documentfoundation.org/show_bug.cgi?id=118373) not fixed until 6.1.5.
 This image therefore uses the official LibreOffice PPA installation.
-
